@@ -30,9 +30,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
+
           <form onSubmit={this.handleSubmit}>
             <label htmlFor="name">Enter your name: </label>
             <input
@@ -44,14 +42,9 @@ class App extends Component {
             <button type="submit">Submit</button>
           </form>
           <p>{this.state.greeting}</p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+          <span className="App-link">
+            React + Express project containarized
+          </span>
         </header>
       </div>
     );
